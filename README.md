@@ -4,11 +4,11 @@
 
 *Déclarations des variables nécéssaires*
 
-o   reel
+o   reel   o <-> val de o
 
-p   reel
+p   reel   p <-> val de p
 
-q   reel
+q   reel   q <-> val de q
 
 Début
 
@@ -19,6 +19,8 @@ Début
       AFFICHAGE "Entrer la valeur de (p)"
 
       LIRE (p)
+
+q <- o÷p
 
       AFFICHAGE "Valeur de (q)"
 
